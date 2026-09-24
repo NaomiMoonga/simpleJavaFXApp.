@@ -11,7 +11,7 @@ import javafx.stage.Stage;
         public void start(Stage stage) {
             Label message = new Label("Welcome Naomi Moonga!");
             Button button = new Button("Start");
-            button = new Button("Reset");
+            Button button = new Button("Reset");
             button.setOnAction(event ->
                     message.setText("Great! You clicked the button.")
             );
